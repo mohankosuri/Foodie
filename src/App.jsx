@@ -8,6 +8,7 @@ import { Dropdown } from 'primereact/dropdown';
 import ProductsDemo from './component/Grid';
 import CircularDemo from './component/Carousal';
 import Chef from './assets/ch.png'
+import Chef1 from './assets/bell.svg'
 
 import 'primereact/resources/themes/lara-light-indigo/theme.css'; //theme
 import 'primereact/resources/primereact.min.css'; //core css
@@ -40,9 +41,13 @@ const App = () => {
 
   return (
     <div>
+
+
 <Navbar/>
 
 <Hero/>
+
+ 
 <div className='mt-[100px] flex flex-wrap space-x-2 p-2'>
 <div>
 <FoodCard
